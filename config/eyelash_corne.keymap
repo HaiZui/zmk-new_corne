@@ -106,7 +106,7 @@
             bindings = <
 &trans          &kp EXCL        &kp AT          &kp HASH        &kp RA(N4)  &kp PRCNT                                           &mmv MOVE_UP                        &trans  &kp HOME            &kp ASTRK           &kp END             &trans  &trans
 &out OUT_USB    &trans          &kp LS(N7)      &kp LA(MINUS)   &trans      &trans                              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT     &trans  &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW     &trans  &trans
-&out OUT_BLE    &trans          &trans          &trans          &trans      &trans             &trans                           &mmv MOVE_DOWN                      &trans  &LC(LEFT_ARROW)     &trans              &kp LC(RIGHT_ARROW) &trans  &trans
+&out OUT_BLE    &trans          &trans          &trans          &trans      &trans             &trans                           &mmv MOVE_DOWN                      &trans  &kp LC(LEFT_ARROW)  &trans              &kp LC(RIGHT_ARROW) &trans  &trans
                                                 &trans          &trans      &kp SPACE                                                                               &trans  &trans              &trans
             >;
 
