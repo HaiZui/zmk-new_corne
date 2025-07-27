@@ -34,6 +34,23 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
+        tilde_macro: tilde_macro {
+            compatible = "zmk,behavior-macro";
+            label = "Tilde Macro";
+            #binding-cells = <0>;
+            bindings = <
+                &kp RIGHT_ALT &kp GRAVE &kp SPACE
+            >;
+        };
+        grave_macro: grave_macro {
+            compatible = "zmk,behavior-macro";
+            label = "Grave Macro";
+            #binding-cells = <0>;
+            bindings = <
+                &kp RIGHT_ALT &kp GRAVE
+            >;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -83,8 +100,8 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &grave_macro
+&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &tilde_macro
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
