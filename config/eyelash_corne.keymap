@@ -60,7 +60,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "Hold Alt while Fn layer active";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT>, <&none>;
+            bindings = <&kp LEFT_ALT &none>;
             flavor = "hold-preferred";
         };
     };
