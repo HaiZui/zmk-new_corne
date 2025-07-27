@@ -64,7 +64,7 @@ layers:
   - '&grace_macro'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&LEFT_BRACKET'
+  - {t: '[', s: '{'}
   - {t: AltGr+8, s: AltGr+*}
   - {t: AltGr+9, s: AltGr+(}
   - {t: Sft+6, s: Sft+^}
