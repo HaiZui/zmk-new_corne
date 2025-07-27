@@ -39,14 +39,14 @@
             compatible = "zmk,behavior-macro";
             label = "Tilde Macro";
             #binding-cells = <0>;
-            bindings = <&kp RA(KP_PLUS) &kp SPACE>;
+            bindings = <&kp RA(RIGHT_BRACE) &kp SPACE>;
         };
 
         grave_macro: grave_macro {
             compatible = "zmk,behavior-macro";
             label = "Grave Macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(GRAVE) &kp SPACE>;
+            bindings = <&kp LS(EQUAL) &kp SPACE>;
         };
     };
 
