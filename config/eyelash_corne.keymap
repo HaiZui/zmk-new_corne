@@ -60,7 +60,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
-            mods = <(MOD_LALT | MOD_LCTRL)>;
+            mods = <(MOD_LCTL|MOD_LALT)>;
         };
     };
 
