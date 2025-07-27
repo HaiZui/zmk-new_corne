@@ -92,7 +92,7 @@ layers:
   - {t: '3', s: '#'}
   - '&grave_macro'
   - '&tilde_macro'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LGUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:backspace-reverse-outline$$
