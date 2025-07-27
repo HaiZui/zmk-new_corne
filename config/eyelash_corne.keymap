@@ -39,7 +39,7 @@
             compatible = "zmk,behavior-macro";
             label = "Tilde Macro";
             #binding-cells = <0>;
-            bindings = <&kp RA(RIGHT_BRACE) &kp SPACE>;
+            bindings = <&kp RA(RIGHT_BRACKET) &kp SPACE>;
         };
 
         grave_macro: grave_macro {
