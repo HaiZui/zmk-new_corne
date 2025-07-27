@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
+  - {t: '[', s: '{'}
   - {t: Sft+7, s: Sft+&}
   - {t: AltGr+-, s: AltGr+_}
   - {t: '$$mdi:transfer$$', type: trans}
