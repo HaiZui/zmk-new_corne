@@ -46,7 +46,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - '&td0'
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '$$mdi:backspace$$', s: 'Ctl+Alt+$$mdi:backspace-reverse-outline$$'}
   - ARROW
   - $$mdi:apple-keyboard-option$$
   NUMBER:
