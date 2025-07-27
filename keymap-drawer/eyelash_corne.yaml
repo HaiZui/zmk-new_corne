@@ -55,16 +55,16 @@ layers:
   - {t: Sft+8, s: Sft+*}
   - {t: Sft+9, s: Sft+(}
   - {t: Sft+0, s: Sft+)}
-  - {t: 'Sft+[', s: 'Sft+{'}
+  - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - '&grave_macro'
+  - '&grace_macro'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&LEFT_BRACKET'
   - {t: AltGr+8, s: AltGr+*}
   - {t: AltGr+9, s: AltGr+(}
   - {t: Sft+6, s: Sft+^}
@@ -82,8 +82,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: AltGr+7, s: AltGr+&}
   - {t: AltGr+0, s: AltGr+)}
-  - Sft+NUBS
   - NUBS
+  - Sft+NUBS
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
