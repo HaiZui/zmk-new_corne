@@ -108,14 +108,14 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
-  - '*'
+  - $$mdi:arrow-up-bold$$
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+7, s: Sft+&}
-  - {t: Alt+-, s: Alt+_}
+  - {t: AltGr+-, s: AltGr+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
