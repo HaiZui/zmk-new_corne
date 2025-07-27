@@ -56,13 +56,6 @@
             bindings = <&kp LS(EQUAL) &kp SPACE>;
         };
 
-        alt_hold: alt_hold {
-            compatible = "zmk,behavior-hold-tap";
-            label = "Hold Alt while Fn layer active";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &trans>;
-            flavor = "hold-preferred";
-        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -124,10 +117,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&alt_hold      &kp F1          &kp F2          &kp F3                  &kp F4              &kp F5                                                  &mmv MOVE_UP                        &kp F6       &kp F7             &kp F8              &kp F9              &kp F10             &kp F11
-&trans          &bt BT_PRV      &bt BT_NXT      &rgb_ug RGB_HUI         &rgb_ug RGB_BRI     &rgb_ug RGB_EFF                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT     &trans       &trans             &trans              &trans              &bt BT_CLR              &kp F12
-&sys_reset      &out OUT_USB    &out OUT_BLE    &rgb_ug RGB_HUD         &rgb_ug RGB_BRD     &rgb_ug RGB_TOG     &kp C_MUTE                          &mmv MOVE_DOWN                      &trans       &trans             &trans              &trans              &studio_unlock      &sys_reset
-                                                &trans                  &trans              &trans                                                                                      &trans       &trans             &trans
+&trans          &kp F1          &kp F2          &kp F3         &kp F4     &kp F5                                         &mmv MOVE_UP                        &kp F6              &kp F7             &kp F8              &kp F9              &kp F10             &kp F11
+&trans          &bt BT_PRV      &bt BT_NXT      &trans         &trans     &trans                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT     &rgb_ug RGB_EFF     &rgb_ug RGB_BRD    &rgb_ug RGB_BRI              &trans              &bt BT_CLR              &kp F12
+&sys_reset      &out OUT_USB    &out OUT_BLE    &trans         &trans     &bt BT_CLR     &kp C_MUTE                          &mmv MOVE_DOWN                  &rgb_ug RGB_TOG     &rgb_ug RGB_HUD    &rgb_ug RGB_HUI              &trans              &studio_unlock      &sys_reset
+                                                &trans         &trans     &trans                                                                             &trans              &trans             &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
